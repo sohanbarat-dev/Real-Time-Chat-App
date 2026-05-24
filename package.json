@@ -1,0 +1,21 @@
+{
+  "name": "realtime-chat-app",
+  "version": "1.0.0",
+  "description": "Real-time chat app with Socket.io and MongoDB",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongodb": "^7.1.1",
+    "mongoose": "^8.0.3",
+    "socket.io": "^4.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
